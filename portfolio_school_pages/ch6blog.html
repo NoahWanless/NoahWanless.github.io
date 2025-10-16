@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Math Undergraduate Research</title>
+    <title>Blog assginment</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
         <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="../assets/img/favicon.png" rel="icon">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
         <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -18,14 +18,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
         <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
         <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
         <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
 
 </head>
 
@@ -44,11 +44,11 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../resume.html">Resume</a></li>
           <!--<li><a href="services.html">Services</a></li> -->
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="../portfolio.html">Portfolio</a></li>
           <li><a href="portfolio_school.html">School Projects Portfolio</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -67,7 +67,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="../contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -85,41 +85,51 @@
 <main class="main">
     <section id="about" class="about section">
         <div class="container section-title">
-            <h2>Undergraduate Research</h2>
-            <p>The Q and Stairstep polynomials</p>
+            <h2>This is about the Chapter 6 blog assginment </h2>
         </div>
-        <div class="row align-items-center justify-content-between gy-5 mb-5">
+        <div class = "container">
+            <div class="row align-items-center justify-content-between gy-5 mb-5">
             <div class="col-lg-7" data-aos-delay="150">
-                <p class="lead">From the Spring of 2025 i have been partaking in Undergraduate Mathematics research with Eric Chesebro, a Professor at the University of Montana</p> 
+                <p class="lead">This is a Assginment we i created a blog style page backed by a database within the Django framework for a dynamic website</p> 
             </div>
             <p>
-                The work I have been doing is related to a special set of polynomials called the Q polynomials, 
+                At this point what is able to be done is if you navagate to the admin cite with /admin (and log in as a super user)
+                 you are able to add and remove elements of the Post model, a database that we defined within the models.py file of the project 
+                 that contains all the elements of the database with predefined fields as can be seen below.
             </p>
+            </div>
+        </div>
+        
+        <figure class="profile-figure text-center ">
+              <img src="../assets/img/school_portfolio/ch6Blog.png" alt="Portrait of Alex" class="img-fluid profile-photo">
+        </figure>
+        <div class = "container">
+        <div class="row align-items-center justify-content-between gy-5 mb-5">
+            <div class="col-lg-7" data-aos-delay="150">
+                <p class="lead">From here we also dynamically have unique detailed pages for each post along with </p> 
+            </div>
+            <p>
+                Each of these pages are based on the same template, however, when the views.py program is sending the associated view it sends along with it the 
+                primary key of that specfic post entry in the Post database, this allows the content of that specifc post, to be displayed.
+                As shown below on this post titled 'Hello, Guys!' with the text body of 'This is a test'
+            </p>
+        </div>
         </div>
         <figure class="profile-figure text-center ">
-              <img src="assets/img/mathre/testImg1.jpg" alt="Portrait of Alex" class="img-fluid profile-photo">
+              <img src="../assets/img/school_portfolio/ch6Blog3.png" alt="Portrait of Alex" class="img-fluid profile-photo">
         </figure>
+        <div class = "container">
         <div class="row align-items-center justify-content-between gy-5 mb-5">
             <div class="col-lg-7" data-aos-delay="150">
-                <p class="lead">more stuff</p> 
+                <p class="lead">All this information is displayed on a single page which lists off all the entries along with a link to access them as shown below. </p> 
             </div>
-            <p>
-                more body
-            </p>
+            <figure class="profile-figure text-center ">
+              <img src="../assets/img/school_portfolio/ch6Blog2.png" alt="Portrait of Alex" class="img-fluid profile-photo">
+            </figure>
+            <div class="col-lg-7" data-aos-delay="150">
+                <p class="lead">And finally here is the github link to this project <a href = "https://github.com/NoahWanless/company_website">GitHub</a> </p> 
+            </div>
         </div>
-        <figure class="profile-figure text-center ">
-              <img src="assets/img/mathre/testImg1.jpg" alt="Portrait of Alex" class="img-fluid profile-photo">
-        </figure>
-        <div class="row align-items-center justify-content-between gy-5 mb-5">
-            <div class="col-lg-7" data-aos-delay="150">
-                <p class="lead">this will be the final part of text</p> 
-            </div>
-            <p>
-                final final text 
-            </p>
-            <div class="col-lg-7" data-aos-delay="150">
-                <p class="lead">this will be the final final fian lafin final  part of text</p> 
-            </div>
         </div>
 
     </section>
